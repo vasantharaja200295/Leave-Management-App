@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Hello = () => {
+const Settings = () => {
   return (
     <View>
-      <Text className=" text-lg text-blue-400">Hello</Text>
+      <Text>Settings</Text>
     </View>
   )
 }
 
-export default Hello
+export default Settings

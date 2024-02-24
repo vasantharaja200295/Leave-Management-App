@@ -3,7 +3,7 @@ import React from 'react'
 
 const Dashboard = ({navigation}) => {
   return (
-    <View>
+    <View className=" px-4 py-1">
       <Text>Dashboard</Text>
       <TouchableOpacity onPress={() => {navigation.navigate("Login")}}>
         <Text>Go to Home</Text>
